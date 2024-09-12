@@ -1,0 +1,27 @@
+.root {
+  position: relative;
+  span {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 0.3;
+  }
+  span:last-child {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  .input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 12px 30px;
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+  }
+  @media (max-width: 991px) {
+    position: absolute;
+    top: 100%;
+    width: 30%;
+  }
+}

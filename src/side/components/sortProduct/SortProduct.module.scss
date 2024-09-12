@@ -1,0 +1,60 @@
+.sort {
+  padding-block: 40px 32px;
+  .sort__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .simple__sort {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      column-gap: 9px;
+      li {
+        background: rgba(249, 249, 249, 1);
+        padding: 13px 20px 16px 20px;
+        border-radius: 30px;
+        font-family: Proxima Nova;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.49px;
+        letter-spacing: 0.015em;
+        cursor: pointer;
+      }
+    }
+    .sort__width_popular {
+      position: relative;
+      display: flex;
+      li {
+        cursor: pointer;
+      }
+      .inner__ul {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        padding: 14px;
+        background-color: #ffffff;
+        box-shadow: 0 1px 3px #000;
+        li {
+          padding: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .sort__inner {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 20px;
+      .simple__sort {
+        overflow-x: scroll;
+        li {
+          padding: 10px 15px 9px 15px;
+        }
+      }
+      .simple__sort::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}

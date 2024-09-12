@@ -1,0 +1,1 @@
+.root{position:relative}.root span{position:absolute;top:50%;-webkit-transform:translate(0, -50%);-ms-transform:translate(0, -50%);transform:translate(0, -50%);opacity:.3}.root span:last-child{position:absolute;right:10px;cursor:pointer}.root .input{border:1px solid rgba(0,0,0,.1);width:400px;padding:12px 30px}.root .input:focus{border:1px solid rgba(0,0,0,.4)}

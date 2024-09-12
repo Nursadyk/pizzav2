@@ -1,0 +1,84 @@
+.home__inner__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-block: 11px 32px;
+  }
+  &__info {
+    width: 100%;
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding: 0 5px;
+    .home__info_top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 0;
+      li {
+        list-style: none;
+        width: 100%;
+        font-family: Proxima Nova;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.05px;
+        letter-spacing: 0.015em;
+        text-align: center;
+        padding: 10px 0;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+    .home__info_bottom {
+      padding-bottom: 7px;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 6px;
+        li {
+          width: 100%;
+          text-align: center;
+          padding: 10px 0;
+          cursor: pointer;
+          font-family: Proxima Nova;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 17.05px;
+          letter-spacing: 0.015em;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.price {
+  width: 100%;
+  padding-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.8px;
+    letter-spacing: 0.015em;
+    text-align: left;
+  }
+  button {
+    border: 1px solid #eb5a1e;
+    border-radius: 30px;
+    padding: 11px 18px;
+    color: #eb5a1e;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+  }
+}
